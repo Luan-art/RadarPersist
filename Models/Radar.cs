@@ -7,7 +7,6 @@ namespace Models
         public readonly string Insert = "INSERT INTO TB_CAR (name, color, year, insurenceId) VALUES ";
 
         [JsonProperty("id")]
-
         public int Id { get; }
 
         [JsonProperty("concessionaria")]
