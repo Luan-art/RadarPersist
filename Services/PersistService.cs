@@ -19,6 +19,7 @@ namespace Services
 
         public bool Inserir()
         {
+            Console.WriteLine("Service");
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
             try

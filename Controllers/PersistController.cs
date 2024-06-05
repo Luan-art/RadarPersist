@@ -13,6 +13,7 @@ namespace Controllers
 
         public bool Inserir()
         {
+            Console.WriteLine("Controller");
             return persistService.Inserir();
         }
     }
